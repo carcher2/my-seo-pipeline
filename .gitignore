@@ -1,1 +1,5 @@
 .env
+
+my_seo_pipeline/data/initial_keywords.csv
+
+SEMRush_api_docs_pdf.md

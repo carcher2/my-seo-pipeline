@@ -8,9 +8,9 @@ df = pd.read_csv(csv_path)
 print("Keyword Data Overview:")
 print(df.head())
 print("\nSearch Volume Statistics:")
-print(df["search_volume"].describe())
+print(df["Volume"].describe()) #Keyword,Intent,Volume,Keyword Difficulty,CPC (USD),Competitive Density,SERP Features
 
 # Sort by search volume
-df_sorted = df.sort_values(by="search_volume", ascending=False)
+df_sorted = df.sort_values(by="Volume", ascending=False)
 print("\nTop Keywords:")
 print(df_sorted.head())
